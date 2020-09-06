@@ -11,7 +11,7 @@ var temperature = document.getElementById('temp')
 var icon = document.getElementById('icon')
 var desc = document.getElementById('desc')
 
-var api = 'http://api.openweathermap.org/data/2.5/weather?'
+var api = 'https://api.openweathermap.org/data/2.5/weather?'
 var key = '&APPID=11c8e92be9bd346ea62a9e154d1b617c&units=metric'
 
 function getdata(event) {
