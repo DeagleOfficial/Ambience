@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: url('bluesky2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    /* background-color: rgba(253, 253, 250, 0.5); */
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 35px;
+    border-radius: 20px;
+    box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    color: rgb(100, 98, 98);
+}
+
+#search {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#button {
+    background: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    transition: 0.3s ease;
+}
+
+#button:hover {
+    background-color: rgb(211, 203, 203);
+}
+h1 {
+    margin-top: -2px;
+    font-size: 4em;
+}
+
+#bordericon {
+    border: none;
+    background: rgb(13, 18, 94);
+    border-radius: 100%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.icon {
+    width: 30px;
+}
